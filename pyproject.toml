@@ -11,6 +11,7 @@ hmmlearn = "^0.2.7"
 pandas = "^1.4.1"
 pykalman = "^0.9.5"
 scikit-learn = "^1.0.2"
+ipykernel = "^6.9.1"
 
 [tool.poetry.dev-dependencies]
 
