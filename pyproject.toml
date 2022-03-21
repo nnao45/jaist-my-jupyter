@@ -13,8 +13,8 @@ pykalman = "^0.9.5"
 scikit-learn = "^1.0.2"
 ipykernel = "^6.9.1"
 matplotlib = "^3.5.1"
-statsmodels = "^0.13.2"
 requests = "^2.27.1"
+statsmodels = "^0.10.0"
 
 [tool.poetry.dev-dependencies]
 
