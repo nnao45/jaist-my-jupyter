@@ -1,0 +1,20 @@
+[
+  {
+    "Id": "m1",
+    "MetricStat": {
+      "Metric": {
+        "Namespace": "AWS/ELB",
+        "MetricName": "RequestCount",
+        "Dimensions": [
+          {
+            "Name": "LoadBalancerName",
+            "Value": "airt-wn"
+          }
+        ]
+      },
+      "Period": 600,
+      "Stat": "Sum",
+      "Unit": "Count"
+    }
+  }
+]
