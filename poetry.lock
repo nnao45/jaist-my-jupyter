@@ -458,6 +458,24 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "neurokit2"
+version = "0.1.7"
+description = "The Python Toolbox for Neurophysiological Signal Processing."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+scikit-learn = "*"
+scipy = "*"
+
+[package.extras]
+test = ["numpy", "pandas", "scipy", "scikit-learn", "matplotlib", "pytest", "coverage", "bioread", "mne", "pyentrp", "antropy", "nolds", "biosppy (==0.6.1)", "cvxopt", "pywavelets", "emd-signal", "astropy"]
+
+[[package]]
 name = "numpy"
 version = "1.22.3"
 description = "NumPy is the fundamental package for array computing with Python."
@@ -648,6 +666,17 @@ description = "Cryptographic library for Python"
 category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "pyentrp"
+version = "0.7.1"
+description = "Functions on top of NumPy for computing different types of entropy"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+numpy = ">=1.7.0"
 
 [[package]]
 name = "pygments"
@@ -997,7 +1026,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "e8248d8d11675527335c8576963f9628f2005d666619033be788fca9898e40bc"
+content-hash = "509e88dcbe07095b50a63dfc1e9c7f60c9a0bc46e333f2fef2e2ee38f3fbd020"
 
 [metadata.files]
 appnope = [
@@ -1382,6 +1411,10 @@ nest-asyncio = [
     {file = "nest_asyncio-1.5.4-py3-none-any.whl", hash = "sha256:3fdd0d6061a2bb16f21fe8a9c6a7945be83521d81a0d15cff52e9edee50101d6"},
     {file = "nest_asyncio-1.5.4.tar.gz", hash = "sha256:f969f6013a16fadb4adcf09d11a68a4f617c6049d7af7ac2c676110169a63abd"},
 ]
+neurokit2 = [
+    {file = "neurokit2-0.1.7-py2.py3-none-any.whl", hash = "sha256:000d908fa90441673fa7cdfb0bd4c5326c701daf260e2c612fb0900fd8421e75"},
+    {file = "neurokit2-0.1.7.tar.gz", hash = "sha256:03c2aa354ab8d8b9a559f4e5e465b67630465a230b919a3a412c9aad31c59395"},
+]
 numpy = [
     {file = "numpy-1.22.3-cp310-cp310-macosx_10_14_x86_64.whl", hash = "sha256:92bfa69cfbdf7dfc3040978ad09a48091143cffb778ec3b03fa170c494118d75"},
     {file = "numpy-1.22.3-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:8251ed96f38b47b4295b1ae51631de7ffa8260b5b087808ef09a39a9d66c97ab"},
@@ -1549,6 +1582,9 @@ pycryptodomex = [
     {file = "pycryptodomex-3.14.1-pp36-pypy36_pp73-manylinux2010_x86_64.whl", hash = "sha256:c4d8977ccda886d88dc3ca789de2f1adc714df912ff3934b3d0a3f3d777deafb"},
     {file = "pycryptodomex-3.14.1-pp36-pypy36_pp73-win32.whl", hash = "sha256:530756d2faa40af4c1f74123e1d889bd07feae45bac2fd32f259a35f7aa74151"},
     {file = "pycryptodomex-3.14.1.tar.gz", hash = "sha256:2ce76ed0081fd6ac8c74edc75b9d14eca2064173af79843c24fa62573263c1f2"},
+]
+pyentrp = [
+    {file = "pyentrp-0.7.1.tar.gz", hash = "sha256:6bffa89e4963ee476c51f40830a7507e2f5d604ffaafc8e68c641fa04fb3ad5b"},
 ]
 pygments = [
     {file = "Pygments-2.11.2-py3-none-any.whl", hash = "sha256:44238f1b60a76d78fc8ca0528ee429702aae011c265fe6a8dd8b63049ae41c65"},

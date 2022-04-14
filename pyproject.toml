@@ -20,6 +20,8 @@ snowflake-sqlalchemy = "^1.3.3"
 sklearn = "^0.0"
 mglearn = "^0.1.9"
 EntropyHub = "^0.2"
+pyentrp = "^0.7.1"
+neurokit2 = "^0.1.7"
 
 [tool.poetry.dev-dependencies]
 
