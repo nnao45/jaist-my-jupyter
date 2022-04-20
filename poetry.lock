@@ -793,6 +793,17 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)", "win-inet-pton"]
 use_chardet_on_py3 = ["chardet (>=3.0.2,<5)"]
 
 [[package]]
+name = "sampen"
+version = "0.0.17"
+description = "A Python module to calculate an estimation of the Sample Entropy of a time series."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+numpy = ">=1.9.2"
+
+[[package]]
 name = "scikit-learn"
 version = "1.0.2"
 description = "A set of python modules for machine learning and data mining"
@@ -1026,7 +1037,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "509e88dcbe07095b50a63dfc1e9c7f60c9a0bc46e333f2fef2e2ee38f3fbd020"
+content-hash = "417e6db48ca5886a2eeb78c9b1b9dc1eed00b41e4cbb5d0eb1e928fc432dab1f"
 
 [metadata.files]
 appnope = [
@@ -1679,6 +1690,10 @@ pyzmq = [
 requests = [
     {file = "requests-2.27.1-py2.py3-none-any.whl", hash = "sha256:f22fa1e554c9ddfd16e6e41ac79759e17be9e492b3587efa038054674760e72d"},
     {file = "requests-2.27.1.tar.gz", hash = "sha256:68d7c56fd5a8999887728ef304a6d12edc7be74f1cfa47714fc8b414525c9a61"},
+]
+sampen = [
+    {file = "sampen-0.0.17-py2.py3-none-any.whl", hash = "sha256:7d6cd6aacb08c638d2761af6f57c57b4614ccd759a88f8a1cc713f2cc8cc558a"},
+    {file = "sampen-0.0.17.tar.gz", hash = "sha256:c2d0713130cb12cf32d168db98150d8a9d76595f6af6b6c11f127ea12deae4cf"},
 ]
 scikit-learn = [
     {file = "scikit-learn-1.0.2.tar.gz", hash = "sha256:b5870959a5484b614f26d31ca4c17524b1b0317522199dc985c3b4256e030767"},
