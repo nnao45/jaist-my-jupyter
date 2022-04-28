@@ -1,0 +1,1 @@
+gzip -dc ./wc_day7_1.gz | /Users/s02435/Downloads/ita_public_tools/bin/recreate /Users/s02435/Downloads/ita_public_tools/state/object_mappings.sort > wc_day7_1.log
