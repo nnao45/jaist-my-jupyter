@@ -24,6 +24,7 @@ pyentrp = "^0.7.1"
 neurokit2 = "^0.1.7"
 sampen = "^0.0.17"
 hurst = "^0.0.5"
+altair = "^4.2.0"
 
 [tool.poetry.dev-dependencies]
 
