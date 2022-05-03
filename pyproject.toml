@@ -25,6 +25,8 @@ neurokit2 = "^0.1.7"
 sampen = "^0.0.17"
 hurst = "^0.0.5"
 altair = "^4.2.0"
+fbm = "^0.3.0"
+tqdm = "^4.64.0"
 
 [tool.poetry.dev-dependencies]
 
