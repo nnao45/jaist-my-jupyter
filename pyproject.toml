@@ -27,6 +27,7 @@ hurst = "^0.0.5"
 altair = "^4.2.0"
 fbm = "^0.3.0"
 tqdm = "^4.64.0"
+google-cloud-monitoring = "^2.9.1"
 
 [tool.poetry.dev-dependencies]
 
