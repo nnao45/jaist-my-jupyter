@@ -1,0 +1,1 @@
+curl  https://wikimedia.org/api/rest_v1/metrics/pageviews/aggregate/all-projects/mobile-app/user/hourly/2015100100/2015113023
