@@ -32,6 +32,9 @@ ciso8601 = "^2.2.0"
 influxdb-client = "^1.28.0"
 twine = "^4.0.0"
 npd-entropy = "^0.2"
+PypeR = "^1.1.2"
+sidpy = {git = "https://github.com/ddarmon/sidpy"}
+apache-log-parser = "^1.7.0"
 
 [tool.poetry.dev-dependencies]
 
