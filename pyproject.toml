@@ -5,7 +5,7 @@ description = ""
 authors = ["nnao45 <n4sekai5y@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 numpy = "^1.22.3"
 hmmlearn = "^0.2.7"
 pandas = "^1.4.1"
@@ -24,6 +24,17 @@ pyentrp = "^0.7.1"
 neurokit2 = "^0.1.7"
 sampen = "^0.0.17"
 hurst = "^0.0.5"
+altair = "^4.2.0"
+fbm = "^0.3.0"
+tqdm = "^4.64.0"
+google-cloud-monitoring = "^2.9.1"
+ciso8601 = "^2.2.0"
+influxdb-client = "^1.28.0"
+twine = "^4.0.0"
+npd-entropy = "^0.2"
+PypeR = "^1.1.2"
+sidpy = {git = "https://github.com/ddarmon/sidpy"}
+apache-log-parser = "^1.7.0"
 
 [tool.poetry.dev-dependencies]
 
