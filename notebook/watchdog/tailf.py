@@ -67,7 +67,7 @@ def main():
 
     # 監視
     observer = Observer()
-    observer.schedule(TextFileEventHandler(), DIRECTORY, recursive = False)    
+    observer.schedule(TextFileEventHandler(), DIRECTORY, recursive = False)
     observer.start()
 
     try:
