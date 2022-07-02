@@ -36,6 +36,7 @@ PypeR = "^1.1.2"
 sidpy = {git = "https://github.com/ddarmon/sidpy"}
 apache-log-parser = "^1.7.0"
 watchdog = "^2.1.8"
+progress = "^1.6"
 
 [tool.poetry.dev-dependencies]
 
