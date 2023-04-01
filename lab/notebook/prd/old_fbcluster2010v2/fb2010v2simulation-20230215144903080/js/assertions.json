@@ -1,0 +1,10 @@
+{
+  "simulation": "testing.fbcluster.fb2010v2.FB2010v2Simulation",
+  "simulationId": "fb2010v2simulation",
+  "start": 1676472543080,
+  "description": "ba2 20230215",
+  "scenarios": ["Load Testing"],
+  "assertions": [
+
+  ]
+}
